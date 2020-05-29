@@ -3,9 +3,13 @@ const searchController = require("./controllers/search.controllers")
 
 exports.routesConfig = function (app) {
     app.get('/findUser', [
-            searchController.getUser
-    ]); 
+        searchController.getUser
+    ]);
     app.get('/findCompany', [
         searchController.getCompany
-]); 
+    ]);
+    app.get('/findPet', [
+        searchController.getPet
+    ]);
+
 };
