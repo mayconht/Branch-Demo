@@ -17,7 +17,7 @@ exports.getCompany = (req, res) => {
             name : "International Business Machine",
             fantasy : "IBM",
             location: "Brazil",
-            info : "no other info available"
+            info : "no other info is available"
         }
     });
 }
