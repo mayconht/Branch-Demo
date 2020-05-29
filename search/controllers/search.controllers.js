@@ -21,3 +21,16 @@ exports.getCompany = (req, res) => {
         }
     });
 }
+
+
+exports.getPet = (req, res) => {
+    res.status(200).json({
+        status: "success",
+        message: "Pet found",
+        payload: {
+            name : "Chiquinho",
+            location: "in his bed",
+            info : "just sleeping as usual"
+        }
+    });
+}
