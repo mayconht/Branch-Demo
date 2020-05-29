@@ -4,7 +4,7 @@ exports.getById = (req, res) => {
         message: "User found",
         payload: {
             name : "Maycon Douglas Silva Santos",
-            mail : "mdss@br.ibm.com"
+            mail : "mdss@ibm.com"
         }
     });
 }
