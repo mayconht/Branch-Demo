@@ -30,7 +30,7 @@ exports.getPet = (req, res) => {
         payload: {
             name : "Chiquinho",
             location: "in his bed",
-            info : "just sleeping as usual"
+            info : "just sleeping as usual, yey!"
         }
     });
 }
