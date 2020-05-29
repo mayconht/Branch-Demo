@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var app = express();
 
 const searchRouter = require('./search/route.config');
+const folderRouter = require('./folder/route.controller');
 
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
@@ -22,6 +23,7 @@ app.use(function (req, res, next) {
 
 app.use(cookieParser());
 searchRouter.routesConfig(app);
+folderRouter.routesConfig(app);
 
 app.listen(config.port, function(){
     console.log('App listening at port %s', config.port);
