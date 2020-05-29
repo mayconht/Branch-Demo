@@ -32,7 +32,8 @@
     "express-session": "1.17.0",
     "jsonwebtoken": "^8.5.1",
     "nodemon": "^2.0.3",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "systeminformation": "^4.26.5"
   },
   "engines": {
     "node": "0.12.x"
